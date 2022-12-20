@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "8d52150e-e649-4657-8c3b-28cda11512d4",
+		"name": "temp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14548706"
+	},
+	"item": [
+		{
+			"name": "summer_product_sale_api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"price\":11,\n    \"retail_price\":22,\n    \"uses_ad_boosts\":1,\n    \"rating\":2.71,\n    \"rating_count\":24,\n    \"badges_count\":2,\n    \"product_color\":\"black\",\n    \"product_variation_size_id\":\"Other\",\n    \"shipping_option_price\":2,\n    \"shipping_is_express\":0,\n    \"countries_shipped_to\":43,\n    \"has_urgency_banner\":0,\n    \"origin_country\":\"CN\",\n    \"merchant_title\":\"AlicaDubecka\",\n    \"merchant_rating_count\":\"746\",\n    \"merchant_rating\":4.01877,\n    \"merchant_has_profile_picture\":0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://e6648b9b-efe2-42cb-abde-ae7369a9aeb1.eastus2.azurecontainer.io/score",
+					"protocol": "http",
+					"host": [
+						"e6648b9b-efe2-42cb-abde-ae7369a9aeb1",
+						"eastus2",
+						"azurecontainer",
+						"io"
+					],
+					"path": [
+						"score"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
